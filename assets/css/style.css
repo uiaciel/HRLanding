@@ -403,6 +403,18 @@ Button
     border-color: #8dc73f;
 }
 
+.btn-orange{
+    color: #fff;
+    background-color: transparent;
+    border:1px solid;
+    border-color: #b6b6b6;
+}
+.btn-orange:hover{
+    color: #fff;
+    background-color: #f58220;
+    border-color: #f58220;
+}
+
 
 /*
 socail icon
@@ -841,7 +853,6 @@ Nav Menu style
 }
 .navbar-brand > img {
     display: block;
-    width: 50%;
 }
 
 .navbar-callus li a{
@@ -1172,7 +1183,8 @@ work Section style
 }
 .main_test .item_text{
     display: inline-block;
-    width:70%;
+    width:110%;
+    align-items: center;
 }
 .item_img{
     position: relative;
@@ -1344,3 +1356,29 @@ work Section style
     color: #ddd;
     padding: 5px;
 }
+
+@media (min-width: 480px) and (max-width: 640px) {
+    
+}
+
+@media (min-width: 1024px) and (max-width:1400px) {
+    .mission {
+        background-image: url('/assets/images/mission-hineniresoureces.png');background-position: left bottom;
+        background-repeat: no-repeat;
+    }
+
+    .logo {
+        width: 50%;
+    }
+}
+
+.product {
+    background-image: url('/assets/images/vission-hineniresoureces.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.logo-text {
+    margin-top: 10px;
+}
+
